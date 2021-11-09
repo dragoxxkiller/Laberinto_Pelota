@@ -21,7 +21,7 @@ public class Escena_niv2 : MonoBehaviour
         float desp1H = Input.GetAxis("Horizontal");
         float desp1V = Input.GetAxis("Vertical");
 
-        rb.AddTorque(new Vector3(0f, 0f, 0.1f) * desp1V * fuerza);
-        rb.AddTorque(new Vector3(0.1f, 0f, 0f) * desp1H * fuerza);
+        rb.AddTorque(new Vector3(0.1f, 0f, 0f) * desp1V * fuerza);
+        rb.AddTorque(new Vector3(0f, 0f, 0.1f) * desp1H * fuerza);
     }
 }
